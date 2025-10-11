@@ -1,283 +1,405 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nanosafe Solutions - Patent Commercialization Experts</title>
-    <link href="styles.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Faculty Founders Launchpad – From Lab to Market</title>
+  <meta name="description" content="Equity and grant funding, incubation, and industry pilots for research-driven startups—built for India’s faculty founders." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="logo">
-                    <i class="fas fa-atom"></i>
-                    <span>Nanosafe Solutions</span>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
-    </header>
+  <!-- Top Notice -->
+  <div class="notice" role="status">
+    Pledged funding pool with equity investments subject to due diligence and investor discretion. DPIIT recognition required before any equity disbursal. Incubation fast-track for finalists. [Modeled on public program norms] [web:9][web:4]
+  </div>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    Bridging Innovation Between
-                    <span class="highlight">Academia & Industry</span>
-                </h1>
-                <p class="hero-subtitle">
-                    Patent commercialization experts helping higher education institutes monetize their innovations and corporates discover breakthrough technologies from academia.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Get Started</a>
-                    <a href="#services" class="btn btn-secondary">Our Services</a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="innovation-circle">
-                    <div class="orbit orbit-1">
-                        <div class="planet academia">
-                            <i class="fas fa-university"></i>
-                        </div>
-                    </div>
-                    <div class="orbit orbit-2">
-                        <div class="planet industry">
-                            <i class="fas fa-industry"></i>
-                        </div>
-                    </div>
-                    <div class="center-hub">
-                        <i class="fas fa-handshake"></i>
-                    </div>
-                </div>
-            </div>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a class="brand" href="#home" aria-label="Faculty Founders Launchpad home">
+        <span class="logo-dot"></span>
+        Faculty Founders Launchpad
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#why">Why apply</a>
+        <a href="#eligibility">Eligibility</a>
+        <a href="#how">How it works</a>
+        <a href="#rubric">Selection rubric</a>
+        <a href="#partners">Partners</a>
+        <a href="#faqs">FAQs</a>
+        <a href="#apply" class="btn btn-sm">Apply now</a>
+      </nav>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1>From Lab to Market—A launchpad for India’s faculty founders</h1>
+        <p>
+          Equity and grant funding, incubation, mentorship, and Demo Day exposure for research-led startups by faculty and scientists—no age limits, built around university tech transfer workflows. [Aligned with launchpad structure and demo day model] [web:18][web:9]
+        </p>
+        <div class="hero-cta">
+          <a href="#apply" class="btn btn-lg">Start application</a>
+          <a href="#how" class="btn btn-outline btn-lg">How it works</a>
         </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2 class="section-title">Our Expertise</h2>
-            <p class="section-subtitle">Comprehensive patent commercialization solutions</p>
-            
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-university"></i>
-                    </div>
-                    <h3>For Higher Education</h3>
-                    <p>Transform academic research into valuable intellectual property. We help universities and research institutes identify, protect, and commercialize their innovations.</p>
-                    <ul class="service-features">
-                        <li>Patent portfolio analysis</li>
-                        <li>Technology transfer support</li>
-                        <li>Licensing strategies</li>
-                        <li>Revenue optimization</li>
-                    </ul>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <h3>For Corporates</h3>
-                    <p>Discover cutting-edge technologies from academic institutions. We connect you with relevant patents and innovations that can drive your business forward.</p>
-                    <ul class="service-features">
-                        <li>Patent landscape analysis</li>
-                        <li>Technology scouting</li>
-                        <li>Due diligence support</li>
-                        <li>Partnership facilitation</li>
-                    </ul>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>Innovation Consulting</h3>
-                    <p>Strategic guidance for patent commercialization. From initial assessment to market entry, we provide end-to-end support for your intellectual property journey.</p>
-                    <ul class="service-features">
-                        <li>Market assessment</li>
-                        <li>Commercialization strategy</li>
-                        <li>Investor connections</li>
-                        <li>Go-to-market planning</li>
-                    </ul>
-                </div>
-            </div>
+        <ul class="metrics">
+          <li><strong>₹ up to 5 Cr</strong> equity per cohort finalist from a pledged pool, subject to due diligence and investor discretion [pledged-pool concept] [web:9][web:4]</li>
+          <li><strong>Fast-track incubation</strong> at partner university incubators with founder masterclasses and mentorship [incubation emphasis] [web:18][web:9]</li>
+          <li><strong>Offline Demo Day</strong> with early-stage investors and corporate partners at a host campus [demo day structure] [web:18][web:3]</li>
+        </ul>
+      </div>
+      <div class="hero-card" aria-label="Application highlights">
+        <div class="card">
+          <h3>Upcoming cohort</h3>
+          <ul class="checklist">
+            <li>Application opens: Month 1 [timeline cadence mirrors public programs] [web:3][web:18]</li>
+            <li>Deadline: End of Month 2 [submission window reference] [web:3][web:18]</li>
+            <li>Evaluation: Month 3 [evaluation phase] [web:3][web:18]</li>
+            <li>Demo Day: Month 4 at host campus [demo day detail] [web:18][web:3]</li>
+          </ul>
+          <a href="#apply" class="btn btn-block">Apply now</a>
+          <p class="small">Free to apply; equity offered at investor discretion after diligence [pledged vs committed clarity] [web:9][web:4]</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Stats Section -->
-    <section class="stats">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number" data-target="2">0</div>
-                    <div class="stat-label">Patents Commercialized</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-target="40">0</div>
-                    <div class="stat-label">Interested Institutions</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-target="50">0</div>
-                    <div class="stat-label">Million in Revenue Generated</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" data-target="95">0</div>
-                    <div class="stat-label">% Success Rate</div>
-                </div>
-            </div>
+  <!-- Why Participate -->
+  <section id="why" class="section">
+    <div class="container">
+      <h2>Why participate</h2>
+      <div class="cards-3">
+        <div class="card feature">
+          <h3>Get funded</h3>
+          <p>Raise equity from a pledged investor pool; ticket sizes vary by readiness and sector; final amounts depend on diligence and panel decision [pledged-pool framing] [web:9][web:4]</p>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About Nanosafe Solutions</h2>
-                    <p class="about-intro">
-                        As patent commercialization experts, we bridge the gap between groundbreaking academic research and real-world applications in industry.
-                    </p>
-                    <p>
-                        Our team combines deep technical expertise with business acumen to unlock the commercial potential of innovations. We understand the unique challenges faced by higher education institutes in monetizing their research and help corporates navigate the complex landscape of academic patents.
-                    </p>
-                    <div class="about-features">
-                        <div class="feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>15+ years of industry experience</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Proven track record in technology transfer</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Extensive network of industry partners</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-visual">
-                    <div class="about-image">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                </div>
-            </div>
+        <div class="card feature">
+          <h3>Incubation</h3>
+          <p>Fast-track to a university incubator for workspace, labs, mentorship, and founder masterclasses tailored to research translation [incubation & masterclasses] [web:18][web:9]</p>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Ready to Commercialize Your Innovation?</h2>
-            <p class="section-subtitle">Let's discuss how we can help you unlock the commercial potential of your patents</p>
-            
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>nirav@nanosafesolutions.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p>+91 922-003-5559</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Address</h4>
-                            <p>506, DIIF, DPSRU Campus<br>New Delhi, India</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Organization" required>
-                        <select required>
-                            <option value="">Select Type</option>
-                            <option value="university">Higher Education Institute</option>
-                            <option value="corporate">Corporate</option>
-                            <option value="startup">Startup</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                    <textarea placeholder="Tell us about your patent commercialization needs..." required></textarea>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
+        <div class="card feature">
+          <h3>Visibility</h3>
+          <p>Pitch at Demo Day to investors and corporate venture units with media amplification through partner channels [demo day & media] [web:18][web:9]</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="logo">
-                        <i class="fas fa-atom"></i>
-                        <span>Nanosafe Solutions</span>
-                    </div>
-                    <p>Patent commercialization experts bridging innovation between academia and industry.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="#">Patent Analysis</a></li>
-                        <li><a href="#">Technology Transfer</a></li>
-                        <li><a href="#">Licensing Support</a></li>
-                        <li><a href="#">Market Research</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Industries</h4>
-                    <ul>
-                        <li><a href="#">Biotechnology</a></li>
-                        <li><a href="#">Nanotechnology</a></li>
-                        <li><a href="#">Clean Energy</a></li>
-                        <li><a href="#">Healthcare</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Connect</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Nanosafe Solutions Pvt. Ltd. All rights reserved.</p>
-            </div>
+  <!-- Cohorts -->
+  <section id="cohorts" class="section alt">
+    <div class="container">
+      <h2>Cohorts</h2>
+      <div class="cards-3">
+        <div class="card">
+          <h3>Pre-company faculty</h3>
+          <p>Principal investigators planning to spin out within 12 months; TRL 3–6 with clear path to prototype and validation [faculty emphasis] [web:9][web:18]</p>
         </div>
-    </footer>
+        <div class="card">
+          <h3>Early spinouts</h3>
+          <p>Incorporated within last 10 years, pre-revenue to early traction, building MVPs or pilots with institutions or industry [incorporation window inspired] [web:9][web:4]</p>
+        </div>
+        <div class="card">
+          <h3>Industry co-dev</h3>
+          <p>Faculty–industry consortia seeking pilots and co-development for translational milestones and procurement pathways [industry bridges] [web:9][web:18]</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- Eligibility -->
+  <section id="eligibility" class="section">
+    <div class="container">
+      <h2>Eligibility</h2>
+      <div class="grid-2">
+        <div>
+          <ul class="bullets">
+            <li>Open to faculty, scientists, and adjuncts at recognized Indian higher-education institutions or national labs—no age limits [faculty-focused] [web:18][web:9]</li>
+            <li>Registered in India or in process; ready to convert to a Private Limited Company if selected [company readiness] [web:4][web:9]</li>
+            <li>Incorporated within the last 10 years for spinouts; pre-company faculty must show intent to incorporate within 90 days post term sheet [timeline pattern] [web:9][web:4]</li>
+            <li>Pre-revenue, MVP, or product–market fit stages accepted; traction optional but valued [stage flexibility] [web:4][web:18]</li>
+            <li>Revenue must not exceed ₹100 Cr in any financial year [financial cap reference] [web:9][web:4]</li>
+            <li>DPIIT recognition required before fund disbursal; not mandatory at application [recognition policy] [web:9][web:4]</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Sector exclusions</h3>
+          <p>Alcohol, non-vegetarian food products, leather goods, gambling, and betting are not eligible, aligning with common program norms [exclusions alignment] [web:9][web:4]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how" class="section alt">
+    <div class="container">
+      <h2>How it works</h2>
+      <ol class="timeline">
+        <li>
+          <h4>Phase 1: Call & screening</h4>
+          <p>Online intake with TRL self-check, brief deck, IP status, and TTO letter; initial panel shortlist [intake and screening flow] [web:18][web:3]</p>
+        </li>
+        <li>
+          <h4>Phase 2: Diligence</h4>
+          <p>Deep dives on IP, FTO prelim, regulatory, commercialization plan, and MVP roadmap [diligence emphasis] [web:9][web:4]</p>
+        </li>
+        <li>
+          <h4>Phase 3: Readiness sprints</h4>
+          <p>Mentorship and masterclasses on GTM, regulatory, and sales to refine pitches and milestones [masterclasses detail] [web:18][web:9]</p>
+        </li>
+        <li>
+          <h4>Phase 4: Demo Day</h4>
+          <p>Offline pitches at host campus to investor syndicates and corporate partners; decisions at panel discretion [demo day] [web:18][web:3]</p>
+        </li>
+        <li>
+          <h4>Phase 5: Incubation</h4>
+          <p>Fast-track admission, OKRs, and pilot facilitation; funds post-compliance and recognition [incubation follow-on] [web:18][web:9]</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Funding Lanes -->
+  <section id="funding" class="section">
+    <div class="container">
+      <h2>Funding lanes</h2>
+      <div class="cards-2">
+        <div class="card">
+          <h3>Innovation Grant</h3>
+          <p>₹10–25 lakh non-dilutive grants for translational proof and de-risking, sourced via partners and sponsors; not guaranteed [grant lane clarity] [web:9][web:4]</p>
+        </div>
+        <div class="card">
+          <h3>Equity Pre-seed</h3>
+          <p>₹25 lakh–₹2 crore equity from pledged pool, terms based on diligence and investor panel decision; not a committed pool [pledged-pool note] [web:9][web:4]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selection Rubric -->
+  <section id="rubric" class="section alt">
+    <div class="container">
+      <h2>Selection rubric</h2>
+      <div class="rubric-grid">
+        <div class="rubric-item">
+          <h4>Commercial potential</h4>
+          <p>Problem clarity, market size, and pathway to early revenue or pilots [commercial focus] [web:9][web:4]</p>
+        </div>
+        <div class="rubric-item">
+          <h4>IP and defensibility</h4>
+          <p>Ownership clarity, status, and FTO prelim understanding through TTO support [IP clarity] [web:9][web:18]</p>
+        </div>
+        <div class="rubric-item">
+          <h4>Regulatory feasibility</h4>
+          <p>Plausible pathway for medtech/deeptech with risk and timeline estimates [regulatory path] [web:9][web:4]</p>
+        </div>
+        <div class="rubric-item">
+          <h4>Team readiness</h4>
+          <p>Faculty PI plus entrepreneurial lead and advisors suited to the market [team structure] [web:18][web:9]</p>
+        </div>
+        <div class="rubric-item">
+          <h4>Milestones & budget</h4>
+          <p>Clear 12–18 month plan with prioritized risks and costs [milestone focus] [web:9][web:4]</p>
+        </div>
+        <div class="rubric-item">
+          <h4>Industry pull</h4>
+          <p>Evidence of LOIs, pilots, or consortium interest from relevant buyers [industry traction] [web:18][web:9]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section id="partners" class="section">
+    <div class="container">
+      <h2>Partners</h2>
+      <div class="partners">
+        <div class="partner">University Incubators</div>
+        <div class="partner">Investor Syndicates</div>
+        <div class="partner">Corporate Ventures</div>
+        <div class="partner">Media & Platforms</div>
+      </div>
+      <p class="small">Modeled after programs pairing a job platform, investor syndicate, and host university to provide capital, incubation, and national visibility [partner archetypes] [web:18][web:4]</p>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section id="faqs" class="section alt">
+    <div class="container">
+      <h2>FAQs</h2>
+      <details>
+        <summary>Who can apply?</summary>
+        <p>Faculty, scientists, and adjuncts affiliated with recognized Indian institutions or labs; early spinouts are also welcome—no age limits [eligibility orientation] [web:18][web:9]</p>
+      </details>
+      <details>
+        <summary>Do applicants need to be registered entities?</summary>
+        <p>Registration is optional at application; selected teams must be ready to incorporate as a Private Limited Company prior to equity disbursal [entity policy] [web:4][web:9]</p>
+      </details>
+      <details>
+        <summary>Are pre-revenue and MVP stages eligible?</summary>
+        <p>Yes—pre-revenue, MVP, or product–market fit stages are eligible, with rubrics weighted to research translation [stage policy] [web:4][web:18]</p>
+      </details>
+      <details>
+        <summary>Is the funding guaranteed?</summary>
+        <p>No—equity is from a pledged pool; final amounts depend on diligence and panel decision; DPIIT recognition required pre-disbursal [pledged pool clarity] [web:9][web:4]</p>
+      </details>
+      <details>
+        <summary>Are all sectors eligible?</summary>
+        <p>Exclusions: alcohol, non-vegetarian food products, leather goods, gambling, and betting, aligned with common norms [exclusions] [web:9][web:4]</p>
+      </details>
+      <details>
+        <summary>Is the Demo Day in person?</summary>
+        <p>Yes—planned as an offline event hosted at a partner campus for live pitches [demo format] [web:18][web:3]</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Application -->
+  <section id="apply" class="section apply">
+    <div class="container">
+      <h2>Apply now</h2>
+      <form id="applyForm" novalidate>
+        <div class="grid-2">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" required placeholder="Dr. A. B. Singh" />
+            <span class="err" data-for="name"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="name@institute.ac.in" />
+            <span class="err" data-for="email"></span>
+          </div>
+          <div class="field">
+            <label for="affiliation">Institution / Lab</label>
+            <input id="affiliation" name="affiliation" required placeholder="IIT X / National Lab" />
+            <span class="err" data-for="affiliation"></span>
+          </div>
+          <div class="field">
+            <label for="cohort">Cohort</label>
+            <select id="cohort" name="cohort" required>
+              <option value="">Select</option>
+              <option>Pre-company faculty (TRL 3–6)</option>
+              <option>Early spinout (≤10 years)</option>
+              <option>Industry co-development</option>
+            </select>
+            <span class="err" data-for="cohort"></span>
+          </div>
+          <div class="field">
+            <label for="stage">Stage</label>
+            <select id="stage" name="stage" required>
+              <option value="">Select</option>
+              <option>Pre-revenue</option>
+              <option>MVP</option>
+              <option>Early traction</option>
+              <option>PMF emerging</option>
+            </select>
+            <span class="err" data-for="stage"></span>
+          </div>
+          <div class="field">
+            <label for="trl">TRL</label>
+            <select id="trl" name="trl" required>
+              <option value="">Select</option>
+              <option>TRL 3</option><option>TRL 4</option><option>TRL 5</option><option>TRL 6</option><option>TRL 7</option><option>TRL 8</option>
+            </select>
+            <span class="err" data-for="trl"></span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="problem">Problem</label>
+          <textarea id="problem" name="problem" rows="3" placeholder="Who has the problem, how severe, and current alternatives?"></textarea>
+        </div>
+        <div class="field">
+          <label for="solution">Solution & novelty</label>
+          <textarea id="solution" name="solution" rows="3" placeholder="Core insight, IP novelty, research basis, and why now."></textarea>
+        </div>
+        <div class="grid-2">
+          <div class="field">
+            <label for="ip">IP status</label>
+            <input id="ip" name="ip" placeholder="Provisional filed / Granted / Institute-owned / Licensing status" />
+          </div>
+          <div class="field">
+            <label for="reg">Regulatory path (if any)</label>
+            <input id="reg" name="reg" placeholder="e.g., CDSCO Class B, ISO 13485 plan, etc." />
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="field">
+            <label for="fundingLane">Funding lane</label>
+            <select id="fundingLane" name="fundingLane" required>
+              <option value="">Select</option>
+              <option>Innovation Grant (₹10–25 lakh)</option>
+              <option>Equity Pre-seed (₹25 lakh–₹2 crore)</option>
+              <option>Undecided</option>
+            </select>
+            <span class="err" data-for="fundingLane"></span>
+          </div>
+          <div class="field">
+            <label for="ask">Funding ask & use</label>
+            <input id="ask" name="ask" placeholder="Amount and 12–18 month milestones" />
+          </div>
+        </div>
+
+        <div class="upload">
+          <label class="upload-label">Attach deck (PDF)</label>
+          <input type="file" id="deck" accept="application/pdf" />
+          <p class="small">Upload is local-only in this demo; integrate later with your backend or GDrive. [Implementation note]</p>
+        </div>
+
+        <div class="consent">
+          <label><input type="checkbox" id="consent" required /> I agree to the pledged-pool policy, sector exclusions, and data use policy [policy clarity] [web:9][web:4]</label>
+          <span class="err" data-for="consent"></span>
+        </div>
+
+        <button type="submit" class="btn btn-lg">Submit application</button>
+        <p id="formStatus" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand"><span class="logo-dot"></span> Faculty Founders Launchpad</div>
+        <p>A national launchpad empowering faculty-led research startups through funding, incubation, and industry partnerships, modeled on proven launchpad structures with Demo Day and mentorship [program framing] [web:18][web:9]</p>
+      </div>
+      <div>
+        <h4>Program</h4>
+        <ul>
+          <li><a href="#why">Why participate</a></li>
+          <li><a href="#eligibility">Eligibility</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#" aria-disabled="true">Terms</a></li>
+          <li><a href="#" aria-disabled="true">Privacy</a></li>
+          <li><a href="#" aria-disabled="true">Conflict of Interest</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:team@facultyfounders.in">team@facultyfounders.in</a></li>
+          <li>Host Campus • India</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container tiny">© 2025 Faculty Founders Launchpad • Pledged pool investments at investor discretion; funds not guaranteed [clarification] [web:9][web:4]</div>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
